@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/e518a06a41.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">COLOR</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">HOME</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">ABOUT</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >SERVICES</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">SIGN UP</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">choose your <span>colors</span></h1>
+        <p class="hero__description">unlimited possibilities</p>
+        <button class="main__btn"><a href="#">explore</a></button>
+      </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fa fa-layer-group"></i></div>
+        </div>
+        <div class="main__content">
+          <h1>what do we do?</h1>
+          <h2>We help businesses scale</h2>
+          <p>Schedule a call to learn more about our services</p>
+          <button class="main__btn"><a href="#">schedule call</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <div class="services" id="services">
+      <h1>our services</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>custom colorways</h2>
+          <p>AI powred technology</p>
+          <div class="services__btn"><button>get started</button></div>
+        </div>
+
+        <div class="services__card">
+          <h2>are you ready?</h2>
+          <p>take the lepa</p>
+          <div class="services__btn"><button>get started</button></div>
+        </div>
+
+        <div class="services__card">
+          <h2>full gradient</h2>
+          <p>100 combinations</p>
+          <div class="services__btn"><button>get started</button></div>
+        </div>
+
+        <div class="services__card">
+          <h2>infinite choices</h2>
+          <p>1000's of colors</p>
+          <div class="services__btn"><button>get started</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURES SECTION -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>join our team</h1>
+          <h2>sign up today</h2>
+          <p>See what makes us different</p>
+          <button class="main__btn"><a href="#">sign up</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fa fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>about us</h2>
+            <a href="/sign-up">How it works</a>
+            <a href="/sign-up">Testimonials</a>
+            <a href="/sign-up">Careers</a>
+            <a href="/sign-up">Terms of service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>contact us</h2>
+            <a href="/sign-up">Contact</a>
+            <a href="/sign-up">Support</a>
+            <a href="/sign-up">Destinations</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>videos</h2>
+            <a href="/sign-up">Submit video</a>
+            <a href="/sign-up">Agency</a>
+            <a href="/sign-up">Ambassadors</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>social media</h2>
+            <a href="/sign-up">Instagram</a>
+            <a href="/sign-up">Youtube</a>
+            <a href="/sign-up">Facebook</a>
+            <a href="/sign-up">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">color</a>
+          </div>
+          <p class="website__rights">©Color 2020. All Right Reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
